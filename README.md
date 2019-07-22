@@ -1,4 +1,4 @@
-# DarkFB Termux v3.2.1
+# DarkFB Termux v3.2.2
 
 <ul>
 <li><code>pkg install git python2 coreutils nano curl -y</code></li>
