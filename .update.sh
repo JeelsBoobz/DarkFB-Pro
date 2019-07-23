@@ -34,8 +34,8 @@ then
   printf '%s\n' '  / _ \\___ _____/ /__ / __/ _ )'
   printf '%s\n' ' / // / _ \`/ __/  \'_// _// _  \|'
   printf '%s\n' '/____/\\_,_/_/ /_/\\_\\/_/ /____/'
-  printf '${BLUE}%s\n' 'Hooray! DarkFB Premium has been updated and/or is at the current version."
-  printf '${BLUE}${BOLD}%s${NORMAL}\n' 'More information at:  https://github.com/JeelsBoobz/DarkFB"
+  printf '${BLUE}%s\n' 'Hooray! DarkFB Premium has been updated and/or is at the current version.'
+  printf '${BLUE}${BOLD}%s${NORMAL}\n' 'More information at:  https://github.com/JeelsBoobz/DarkFB'
 else
   printf '${RED}%s${NORMAL}\n' 'There was an error updating. Try again later?'
 fi
