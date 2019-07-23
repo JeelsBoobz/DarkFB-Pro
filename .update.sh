@@ -36,12 +36,12 @@ then
 
                                   
 
-  printf '%s' "$GREEN"
-  printf '%s\n' "    ___           _      ___  ___ "
-  printf '%s\n' "   /   \__ _ _ __| | __ / __\/ __\"
-  printf '%s\n' "  / /\ / _` | '__| |/ // _\ /__\//"
-  printf '%s\n' " / /_// (_| | |  |   </ /  / \/  \"
-  printf '%s\n' "/___,' \__,_|_|  |_|\_\/   \_____/"
+  printf "%s" "$GREEN"
+  printf "%s\n" "    ___           _      ___  ___ "
+  printf "%s\n" "   /   \__ _ _ __| | __ / __\/ __\"
+  printf "%s\n" "  / /\ / _` | '__| |/ // _\ /__\//"
+  printf "%s\n" " / /_// (_| | |  |   </ /  / \/  \"
+  printf "%s\n" "/___,' \__,_|_|  |_|\_\/   \_____/"
   printf "${BLUE}%s\n" "Hooray! DarkFB Premium has been updated and/or is at the current version."
   printf "${BLUE}${BOLD}%s${NORMAL}\n" "More information at:  https://github.com/JeelsBoobz/DarkFB"
 else
