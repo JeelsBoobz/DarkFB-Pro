@@ -27,7 +27,7 @@ check_package() {
 }
 
 printf "${BLUE}%s${NORMAL}\n" "Updating DarkFB Premium"
-if check_package coreutils && git pull origin master
+if check_package coreutils && git pull origin master;
 then
   printf '%s" '$GREEN'
   printf '%s\n' '   ___           __    _______ '
