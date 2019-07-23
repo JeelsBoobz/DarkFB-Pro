@@ -8,4 +8,4 @@ check_package() {
 }
 
 check_package coreutils
-git pull --rebase origin master
+git pull origin master
