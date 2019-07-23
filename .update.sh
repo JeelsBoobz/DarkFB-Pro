@@ -28,7 +28,7 @@ check_package() {
 
 printf "${BLUE}%s${NORMAL}\n" "Updating DarkFB Premium"
 check_package coreutils
-check_package figlet
+#check_package figlet
 if git pull origin master
 then
   #printf '%s' "$GREEN"
