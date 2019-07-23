@@ -29,11 +29,11 @@ check_package() {
 printf "${BLUE}%s${NORMAL}\n" "Updating DarkFB Premium"
 if check_package coreutils && check_package figlet && git pull origin master;
 then
-  BANER = "$(echo "DarkFB" | figlet -f small -c)"
-  printf '%s" '$GREEN'
-  printf '%s\n' '${BANNER}'
-  printf '${BLUE}%s\n' 'Hooray! DarkFB Premium has been updated and/or is at the current version.'
-  printf '${BLUE}${BOLD}%s${NORMAL}\n' 'More information at:  https://github.com/JeelsBoobz/DarkFB'
+  BANNER = "$(echo "DarkFB" | figlet -f small -c)"
+  printf "%s" "$GREEN"
+  printf "%s" "${BANNER}"
+  printf "${BLUE}%s\n" 'Hooray! DarkFB Premium has been updated and/or is at the current version.'
+  printf "${BLUE}${BOLD}%s${NORMAL}\n" 'More information at:  https://github.com/JeelsBoobz/DarkFB'
 else
-  printf '${RED}%s${NORMAL}\n' 'There was an error updating. Try again later?'
+  printf "${RED}%s${NORMAL}\n" 'There was an error updating. Try again later?'
 fi
