@@ -8,4 +8,4 @@ check_package() {
 }
 
 check_package coreutils
-git pull --rebase --autostash
+git pull --rebase --stat origin master
