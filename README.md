@@ -1,4 +1,4 @@
-# DarkFB Termux v3.2.3
+# DarkFB Termux v3.2.4
 
 <ul>
 <li><code>pkg install git python2 coreutils nano curl -y</code></li>
@@ -14,7 +14,3 @@
 <li>Jikan ingin menambahkan list password edit dengan command:<br />
 <code>nano password.bin</code></li>
 </ul>
-<br />
-<!---
-<img src="https://github.com/JeelsBoobz/DarkFB/raw/master/Screenshot_2019-07-05-13-51-45-078_com.termux.png" />
---->
