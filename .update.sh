@@ -31,7 +31,7 @@ if check_package coreutils && git pull origin master
 then
   printf "%s" "$GREEN"
   printf '%s\n' '   ___           __    _______ '
-  printf '%s\n' '  / _ \___ _____/ /__ / __/ _ )'
+  printf '%s\n' '  / _ \\___ _____/ /__ / __/ _ )'
   printf '%s\n' ' / // / _ \`/ __/  \'_// _// _  \|'
   printf '%s\n' '/____/\\_,_/_/ /_/\\_\\/_/ /____/'
   printf "${BLUE}%s\n" "Hooray! DarkFB Premium has been updated and/or is at the current version."
