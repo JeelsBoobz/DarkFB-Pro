@@ -40,7 +40,7 @@ then
   printf '%s\n' '\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  '
   printf '%s\n' '                        /____/                       '
   printf "${BLUE}%s\n" "Hooray! DarkFB Premium has been updated and/or is at the current version."
-  Printf "${BLUE}${BOLD}%s${NORMAL}\n" "More information at:  https://github.com/JeelsBoobz/DarkFB"
+  printf "${BLUE}${BOLD}%s${NORMAL}\n" "More information at:  https://github.com/JeelsBoobz/DarkFB"
 else
   printf "${RED}%s${NORMAL}\n" 'There was an error updating. Try again later?'
 fi
