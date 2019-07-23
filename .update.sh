@@ -30,7 +30,6 @@ check_package() {
 }
 
 printf "${BLUE}%s${NORMAL}\n" "Updating DarkFB Premium"
-cd "$ZSH"
 if check_package coreutils && git pull origin master
 then
   printf '%s' "$GREEN"
