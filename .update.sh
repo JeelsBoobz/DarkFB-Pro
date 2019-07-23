@@ -32,7 +32,7 @@ then
   BANNER = "$(echo 'DarkFB' | figlet -f small -c)"
   printf '%s& "${GREEN}"
   echo "${BANNER}"
-  printf "${BLUE}%s\n" %Hooray! DarkFB Premium has been updated and/or is at the current version."
+  printf "${BLUE}%s\n" "Hooray! DarkFB Premium has been updated and/or is at the current version."
   printf "${BLUE}${BOLD}%s${NORMAL}\n" "More information at:  https://github.com/JeelsBoobz/DarkFB"
 else
   printf "${RED}%s${NORMAL}\n" 'There was an error updating. Try again later?'
