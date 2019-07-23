@@ -31,7 +31,7 @@ if check_package coreutils && check_package figlet && git pull origin master
 then
   BANNER = "$(echo 'DarkFB' | figlet -f small -c)"
   printf '%s& "${GREEN}"
-  printf '%s' "${BANNER}"
+  echo "${BANNER}"
   printf "${BLUE}%s\n" %Hooray! DarkFB Premium has been updated and/or is at the current version."
   printf "${BLUE}${BOLD}%s${NORMAL}\n" "More information at:  https://github.com/JeelsBoobz/DarkFB"
 else
