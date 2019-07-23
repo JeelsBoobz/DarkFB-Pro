@@ -1,4 +1,4 @@
-# DarkFB Termux v3.2.2
+# DarkFB Termux v3.2.3
 
 <ul>
 <li><code>pkg install git python2 coreutils nano curl -y</code></li>
@@ -13,8 +13,6 @@
 <ul>
 <li>Jikan ingin menambahkan list password edit dengan command:<br />
 <code>nano password.bin</code></li>
-<li>Jika merasa ada log ya bypass saja langsung pakai tokenmu dengan command:<br />
-<code>echo "TOKENMU" > login.txt</code></li>
 </ul>
 <br />
 <!---
