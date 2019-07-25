@@ -34,7 +34,7 @@ then
   #printf '%s' "$GREEN"
   #printf '%s\n' 'DarkFB'
   printf "${BLUE}%s\n" "Hooray! DarkFB has been updated and/or is at the current version."
-  printf "${BLUE}${BOLD}%s${NORMAL}\n" "More information at:  https://github.com/JeelsBoobz/DarkFB"
+  printf "${BLUE}${BOLD}%s${NORMAL}\n" "More information at: https://github.com/JeelsBoobz/DarkFB"
 else
   printf "${RED}%s${NORMAL}\n" 'There was an error updating. Try again later?'
 fi
